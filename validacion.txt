@@ -1,0 +1,41 @@
+{ /* Solo letras  "^[a-zA-ZñÑáéíóúÁÉÍÓÚ]+$"           */ }
+
+{ /* Validación: Nombres y Apellidos  var ExpRegNomApe="^[A-ZÑa-zñáéíóúÁÉÍÓÚ'° ]+$";        */ }
+{ /* Source code
+//Expresión Regular Fecha dd/mm/yyyy
+var ExpRegFecha=/^(?:(?:(?:0?[1-9]|1\d|2[0-8])[/](?:0?[1-9]|1[0-2])|(?:29|30)[/](?:0?[13-9]|1[0-2])|31[/](?:0?[13578]|1[02]))[/](?:0{2,3}[1-9]|0{1,2}[1-9]\d|0?[1-9]\d{2}|[1-9]\d{3})|29[/]0?2[/](?:\d{1,2}(?:0[48]|[2468][048]|[13579][26])|(?:0?[48]|[13579][26]|[2468][048])00))$/;         */ }
+{ /* //Expresión Regular Horario 12 hrs.
+var ExpRegHora12Hrs=/((1[0-2]|0?[1-2]):([0-5][0-9]) ?([AaPp][Mm]))/;      */ }
+{ /* //Expresión Regular Contraseña Fuerte
+var ExpRegPassFuerte=/(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/;   */ }
+{ /* Solo letras  "^[a-zA-ZñÑáéíóúÁÉÍÓÚ]+$"           */ }
+
+//Expresión Regular Nombres de Usuario
+var ExpRegNomUsuario=/^[a-z0-9_-]{3,16}$/;
+
+//Expresión Regular Email
+var ExpRegEmail=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/;
+
+
+http://estilow3b.com/ejemplos-comunes-de-expresiones-regulares-javascript/
+
+
+
+
+
+{/* 
+const validatePassword = (password) => {
+  const regex = /(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/;
+  return regex.test(password);
+};
+
+const validateUser = (usuario) => {
+  const regex = '/^[a-z0-9_-]{3,16}$/';
+  return regex.test(usuario);
+};
+
+const validateEmail = (email) => {
+  const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/;
+  return regex.test(email);
+};
+*/}

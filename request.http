@@ -1,0 +1,15 @@
+PUT  http://localhost:9000/api/users/638222d16217edbec6e9cbf4 HTTP/1.1
+Content-Type: application/json
+ 
+ {
+    "name":"sandra vergara",
+    "age":36,
+    "email":"sandravergara@gamil.com"
+ }
+
+ ###
+
+DELETE http://localhost:9000/api/users/638222776217edbec6e9cbf2  HTTP/1.1
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
